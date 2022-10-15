@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form1</title>
+</head>
+
+<body>
+  <div class="container-form1">
+    <form class="form1" action="#" method="post">
+      <h2 class="form1-header">Форма заявки на работу в зоопарке</h2>
+      <p class="form1-header-info">Пожалуйста, заполните форму. Обязательные поля помечены <span>*</span></p>
+
+      <fieldset class="form1-section">
+        <legend class="form1-legend">Контактная информация</legend>
+        <div class="form1-item">
+          <label for="namef1">Имя <span>*</span></label>
+          <input type="text" name="name" id="namef1" required>
+        </div>
+        <div class="form1-item">
+          <label for="telf1">Телефон</label>
+          <input type="tel" name="tel" id="telf1">
+        </div>
+        <div class="form1-item">
+          <label for="emailf1">Email <span>*</span></label>
+          <input type="email" name="email" id="emailf1" required>
+        </div>
+      </fieldset>
+
+      <fieldset class="form1-section">
+        <legend class="form1-legend">Персональная информация</legend>
+        <div class="form1-item">
+          <label for="agef1">Возраст <span>*</span></label>
+          <input type="number" name="age" id="agef1" min="16" max="100" required>
+        </div>
+        <div class="form1-item">
+          <label for="genf1">Пол</label>
+          <select name="gen" id="genf1">
+            <option value="female">Женщина</option>
+            <option value="male">Мужчина</option>
+          </select>
+        </div>
+        <div class="form1-item">
+          <label for="qualf1">Перечислите личные качества</label>
+          <textarea name="qual" id="qualf1"></textarea>
+        </div>
+      </fieldset>
+
+      <fieldset class="form1-section form1-section-checkbox">
+        <legend class="form1-legend">Выберите ваших любимых животных</legend>
+        <div class="form1-checkbox">
+          <input type="checkbox" name="animal" value="zebra" id="zeb">
+          <label for="zeb">Зебра</label>
+        </div>
+        <div class="form1-checkbox">
+          <input type="checkbox" name="animal" value="cat" id="cat">
+          <label for="cat">Кошак</label>
+        </div>
+        <div class="form1-checkbox">
+          <input type="checkbox" name="animal" value="anaсonda" id="anac">
+          <label for="anac">Анаконда</label>
+        </div>
+        <div class="form1-checkbox">
+          <input type="checkbox" name="animal" value="human" id="hum">
+          <label for="hum">Человек</label>
+        </div>
+        <div class="form1-checkbox">
+          <input type="checkbox" name="animal" value="elephant" id="eleph">
+          <label for="eleph">Слон</label>
+        </div>
+        <div class="form1-checkbox">
+          <input type="checkbox" name="animal" value="antelope" id="ant">
+          <label for="ant">Антилопа</label>
+        </div>
+        <div class="form1-checkbox">
+          <input type="checkbox" name="animal" value="pigeon" id="pige">
+          <label for="pige">Голубь</label>
+        </div>
+        <div class="form1-checkbox">
+          <input type="checkbox" name="animal" value="crab" id="crab">
+          <label for="crab">Краб</label>
+        </div>
+      </fieldset>
+
+      <div class="form1-buttons">
+        <div class="form1-button">
+          <button type="submit">Отправить информацию</button>
+        </div>
+        <div class="form1-button">
+          <a href="index.html">Вернуться на главную страницу</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>

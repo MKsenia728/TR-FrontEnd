@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form2</title>
+</head>
+
+<body>
+  <div class="container-form2">
+    <form class="form2" action="#" method="post">
+      <h2 class="form2-header">Workplace Complaint Form</h2>
+
+      <div class="form2-item">
+        <p>Your name</p>
+        <input type="text" name="fname" placeholder="First">
+        <input type="text" name="lname" placeholder="Last">
+      </div>
+
+      <div class="form2-item">
+        <p>Your email</p>
+        <input type="email" name="email">
+      </div>
+
+      <div class="form2-item">
+        <p>Date of complaint</p>
+        <input type="date" name="date">
+      </div>
+
+      <div class="form2-item">
+        <p>Your department</p>
+        <select name="department">
+          <option value="" selected disabled>*Please select</option>
+          <option value="A">Department A</option>
+          <option value="B">Department B</option>
+          <option value="C">Department C</option>
+          <option value="D">Department D</option>
+          <option value="E">Department E</option>
+        </select>
+      </div>
+
+      <div class="form2-item">
+        <p>Office manager name</p>
+        <input type="text" name="manager">
+      </div>
+
+      <div class="form2-item">
+        <p>The person(s) involved in this complaint are</p>
+        <textarea name="person" rows="3"></textarea>
+      </div>
+
+      <div class="form2-item">
+        <p>Note all relevant dates, places, events, etc. pertaining to the complaint</p>
+        <textarea name="relevant" rows="3"></textarea>
+      </div>
+
+      <div class="form2-item">
+        <p>Signature</p>
+        <textarea name="signature" rows="3"></textarea>
+      </div>
+
+      <div class="form2-buttons">
+        <div class="form2-button">
+          <button type="submit">Send</button>
+        </div>
+        <div class="form2-button">
+          <a href="index.html">Вернуться на главную страницу</a>
+        </div>
+      </div>
+    </form>
+  </div>
+
+</body>
+
+</html>
