@@ -1,0 +1,276 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  color: #363636;
+}
+
+a {
+  text-decoration: none;
+  color: #363636;
+}
+
+ul {
+  margin: 0;
+  list-style: none;
+}
+
+main {
+  margin-top: 50px;
+}
+
+.container {
+  width: 100vw;
+  margin: auto;
+  padding: 5px 15px;
+}
+.container--sm {
+  max-width: 70%;
+}
+
+.inform {
+  width: 100%;
+  padding: 10px 15px;
+  border-bottom: 1px solid #e5e5e5;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: white;
+}
+
+.inform_menu_title {
+  letter-spacing: 1.2px;
+  padding-right: 60px;
+  position: relative;
+}
+
+.inform_menu_title:hover,
+.inform_menu_title:focus {
+  color: #23a8e0;
+}
+/* выпадающее меню */
+
+.inform_menu_items {
+  display: none;
+  position: absolute;
+  bottom: -160px;
+  box-shadow: 0 0 15px grey;
+  border: 1px solid rgb(180, 178, 178);
+  border-radius: 5px;
+  padding: 10px 0;
+  background-color: white;
+}
+
+.inform_menu_link {
+  padding: 0 30px 0 10px;
+  line-height: 1.8rem;
+  display: inline-block;
+  width: 100%;
+}
+
+.inform_menu_link:hover {
+  background-color: #23a8e0;
+  color: white;
+}
+
+.inform_menu_link i {
+  padding-right: 10px;
+  font-size: 0.8rem;
+  color: #363636;
+}
+
+.inform_header {
+  color: #23a8e0;
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 900;
+}
+
+.inform_autho_link {
+  letter-spacing: 1.2px;
+  padding-left: 25px;
+}
+
+.inform_autho_link:hover {
+  color: #23a8e0;
+}
+
+/* ========main========= */
+
+.navbar {
+  display: flex;
+  padding: 5px;
+  justify-content: space-between;
+}
+
+.company_name {
+  color: #f8de40;
+  font-weight: 600;
+  font-size: 2rem;
+}
+
+.navbar_list {
+  display: flex;
+  gap: 40px;
+  align-items: flex-end;
+  padding-bottom: 100px;
+}
+
+.navbar_link,
+.areas_p {
+  font-size: 1rem;
+  text-transform: uppercase;
+  color: #f1de64;
+  font-weight: 600;
+}
+
+.areas_p {
+  text-align: center;
+}
+
+.areas_header {
+  font-size: 1.7rem;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1px;
+  color: #000;
+  margin-bottom: 200px;
+}
+
+.areas_list {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  padding: 0 30px;
+  width: 100%;
+  margin-bottom: 25px;
+}
+
+.areas_item {
+  width: calc(100% / 4);
+}
+
+.areas_img {
+  background-color: #363636;
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+  border-radius: 80px;
+  position: relative;
+}
+
+.areas_img i {
+  color: white;
+  font-size: 6.5rem;
+  position: absolute;
+  top: 27%;
+  left: 22%;
+}
+
+.areas_comment {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #000;
+}
+
+.areas_info {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.areas_link {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.areas_link a {
+  display: inline-block;
+  background-color: #fbd828;
+  border-radius: 20px;
+  font-size: 1rem;
+  color: white;
+  padding: 12px 30px;
+  font-weight: 700;
+}
+
+/* ==============footer=========== */
+.footer_container {
+  background-color: #2a2a2c;
+  padding: 80px 200px 10px;
+}
+
+.footer_about {
+  display: flex;
+  line-height: 1.7;
+  padding: 35px;
+  color: white;
+  align-items: flex-end;
+  margin-bottom: 20px;
+  gap: 35px;
+  border-bottom: 1px solid gray;
+}
+
+.footer_info {
+  flex: 1;
+}
+
+.footer_info h5 {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+
+.footer_info-button {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer_info-button input,
+.footer_info-button button {
+  border-radius: 50px;
+  border: none;
+  display: block;
+  padding: 10px;
+}
+
+.footer_info-button input {
+  width: 250px;
+}
+
+.footer_info-button button {
+  width: 120px;
+  background-color: #fcde2f;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.footer_info-button input::placeholder {
+  font-size: 1.2rem;
+  color: #dfdfdf;
+}
+
+.social_list {
+  padding-top: 20px;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.social_link {
+  color: white;
+  font-size: 1.7rem;
+}
