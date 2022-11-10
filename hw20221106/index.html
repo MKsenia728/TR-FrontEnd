@@ -7,96 +7,137 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Xanh+Mono:ital@0;1&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="style/style.css">
 
 </head>
 
 <body>
-  <header class="inform">
+  <header class="header">
 
-    <div class="inform_menu">
-      <p class="inform_menu_title" onclick="(document.getElementById('inform_menu').style.display='block')">
-        <i class="fa-regular fa-circle-question"></i>
-        Информация
-        <i class="fa-solid fa-caret-down"></i>
-      </p>
-      <div class="inform_menu_items" id="inform_menu">
-        <ul class="inform_menu_list">
-          <li class="inform_menu_item"><a class="inform_menu_link" href=""><i class="fa-solid fa-code"></i>Плагин</a>
-          </li>
-          <li class="inform_menu_item"><a class="inform_menu_link" href=""><i class="fa-solid fa-gear"></i>API</a></li>
-          <li class="inform_menu_item"><a class="inform_menu_link" href=""><i
-                class="fa-solid fa-building-columns"></i>Terms of service</a></li>
-          <li class="inform_menu_item"><a class="inform_menu_link" href=""><i class="fa-solid fa-lock"></i>Privacy</a>
-          </li>
-          <li class="inform_menu_item"><a class="inform_menu_link" href=""><i class="fa-solid fa-at"></i>Contact</a>
-          </li>
-        </ul>
+    <div class="inform">
+
+      <div class="inform_menu">
+        <p class="inform_menu_title" onclick="(document.getElementById('inform_menu').style.display='block')">
+          <i class="fa-regular fa-circle-question"></i>
+          Информация
+          <i class="fa-solid fa-caret-down"></i>
+        </p>
+        <div class="inform_menu_items" id="inform_menu">
+          <ul class="inform_menu_list">
+            <li class="inform_menu_item"><a class="inform_menu_link" href=""><i class="fa-solid fa-code"></i>Плагин</a>
+            </li>
+            <li class="inform_menu_item"><a class="inform_menu_link" href=""><i class="fa-solid fa-gear"></i>API</a>
+            </li>
+            <li class="inform_menu_item"><a class="inform_menu_link" href=""><i
+                  class="fa-solid fa-building-columns"></i>Terms of service</a></li>
+            <li class="inform_menu_item"><a class="inform_menu_link" href=""><i class="fa-solid fa-lock"></i>Privacy</a>
+            </li>
+            <li class="inform_menu_item"><a class="inform_menu_link" href=""><i class="fa-solid fa-at"></i>Contact</a>
+            </li>
+          </ul>
+        </div>
       </div>
+
+      <h3 class="inform_header">imgbb</h3>
+
+      <div class="inform_authorization">
+        <a class="inform_autho_link" href="#">
+          <i class="fa-sharp fa-solid fa-cloud-arrow-up"></i>
+          Загрузка</a>
+        <a class="inform_autho_link" href="#">
+          <i class="fa-solid fa-right-to-bracket"></i>
+          Войти</a>
+      </div>
+
     </div>
 
-    <h1 class="inform_header">imgbb</h1>
-
-    <div class="inform_authorization">
-      <a class="inform_autho_link" href="#">
-        <i class="fa-sharp fa-solid fa-cloud-arrow-up"></i>
-        Загрузка</a>
-      <a class="inform_autho_link" href="#">
-        <i class="fa-solid fa-right-to-bracket"></i>
-        Войти</a>
+    <div class="container-navbar">
+      <nav class="navbar">
+        <h5 class="navbar_name company_name">JD</h5>
+        <ul class="navbar_list">
+          <li class="navbar_item"><a class="navbar_link active" href="#">home</a></li>
+          <li class="navbar_item"><a class="navbar_link" href="pages/aboutus.html">about</a></li>
+          <li class="navbar_item"><a class="navbar_link" href="pages/practice.html">practice areas</a></li>
+          <li class="navbar_item"><a class="navbar_link" href="pages/blog.html">blog</a></li>
+          <li class="navbar_item"><a class="navbar_link" href="pages/contact.html">contact us</a></li>
+          <li class="navbar_item"><a class="navbar_link" href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
+        </ul>
+      </nav>
     </div>
-
 
   </header>
 
   <main onclick="(document.getElementById('inform_menu').style.display='none')">
 
-    <div class="container">
-      <nav class="navbar">
-        <h5 class="navbar_name company_name">JD</h5>
-        <ul class="navbar_list">
-          <li class="navbar_item"><a class="navbar_link" href="">home</a></li>
-          <li class="navbar_item"><a class="navbar_link" href="">about</a></li>
-          <li class="navbar_item"><a class="navbar_link" href="">practice areas</a></li>
-          <li class="navbar_item"><a class="navbar_link" href="">blog</a></li>
-          <li class="navbar_item"><a class="navbar_link" href="">contact us</a></li>
-          <li class="navbar_item"><a class="navbar_link" href=""><i class="fa-solid fa-magnifying-glass"></i></a></li>
-        </ul>
-      </nav>
+    <section class="person">
+      <div class="container container-person">
+        <div class="image">
+          <img src="image/lawyer.png" alt="">
+        </div>
+        <div class="info">
+          <h1>My Name Is Josh Du & I’m An Expert In Civil Law</h1>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat officiis provident atque unde sed
+            molestiae neque deleniti saepe cumque voluptates hic cupiditate veniam </p>
+          <div class="button">
+            <a href="#">Read more > </a>
+          </div>
+        </div>
+      </div>
+    </section>
 
-    </div>
+    <section class="about">
+      <div class="container container-about">
+        <div class="info">
+          <h2>About us</h2>
+          <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat officiis provident atque unde sed
+            molestiae neque deleniti saepe cumque voluptates hic cupiditate veniam corrupti voluptas debitis, aliquid,
+            recusandae ducimus veritatis in. Ex modi ut omnis iure culpa exercitationem sequi! Quasi assumenda quia iste
+            alias quas cum ratione error tempore voluptatibus! Quidem quam fugiat, quasi mollitia dolorem velit nam,
+          </p>
+          <div class="button">
+            <a href="#">Read more > </a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="image/about.png" alt="">
+        </div>
+      </div>
+    </section>
 
-    <div class="container container--sm">
+    <section class="practice-area">
 
-      <section>
+      <div class="container-practice">
         <p class="areas_p">Want help</p>
         <h2 class="areas_header">Practice areas</h2>
         <div class="areas_list">
 
           <div class="areas_item">
             <div class="areas_img">
-              <i class="fa-solid fa-hands-bound"></i>
+              <img src="image/lawyer_icon1.png" alt="">
             </div>
             <p class="areas_comment">Shoplifting</p>
           </div>
 
           <div class="areas_item">
             <div class="areas_img">
-              <i class="fa-solid fa-gun"></i>
+              <img src="image/lawyer_icon2.png" alt="">
             </div>
             <p class="areas_comment">Weapon</p>
           </div>
 
           <div class="areas_item">
             <div class="areas_img">
-              <i class="fa-solid fa-people-roof"></i>
+              <img src="image/lawyer_icon3.png" alt="">
             </div>
             <p class="areas_comment">Family Law</p>
           </div>
 
           <div class="areas_item">
             <div class="areas_img">
-              <i class="fa-solid fa-person-rays"></i>
+              <img src="image/lawyer_icon4.png" alt="">
             </div>
             <p class="areas_comment">Sexual offences</p>
           </div>
@@ -107,20 +148,58 @@
           dolores aut quae tenetur aspernatur non eos adipisci asperiores vitae dolorem velit, expedita deserunt
           aspernatur non eos adipisci
         </p>
-        <div class="areas_link">
+        <div class="button button-center">
           <a href="#">Read more > </a>
         </div>
-      </section>
+      </div>
+    </section>
 
-    </div>
+    <section class="blog">
+      <div class="container container-blog">
+        <div class="info info-blog">
+          <h2>welcome to trust</h2>
+          <h3>Story & History</h3>
+          <p>Trust started as a sale practitioner providing services to the area community. Our office has now grown to
+            five lawyers and provides expert legal representation. </p>
+          <h3>Values & Philosophy</h3>
+          <p>Trust started as a sale practitioner providing services to the area community. Our office has now grown to
+            five lawyers and provides expert legal representation.</p>
+          <div class="button">
+            <a href="#">Read more > </a>
+          </div>
+        </div>
+        <div class="image">
+          <img src="image/man1.jpg" alt="">
+        </div>
+      </div>
+    </section>
+
+    <section class="contact">
+      <div class="container container-contact">
+        <div class="form-info">
+          <h2>Contact Us</h2>
+          <form action="#" method="post">
+            <input class="form-item" type="text" name="name" placeholder="Name">
+            <input class="form-item" type="email" name="email" placeholder="Email">
+            <input class="form-item" type="tel" name="tel" placeholder="Phone Number">
+            <input class="form-item" type="text" name="message" placeholder="Message">
+            <button class="form-button" type="submit">Send</button>
+          </form>
+        </div>
+        <div class="form-image">
+          <img src="../image/contact.png" alt="">
+        </div>
+      </div>
+    </section>
+
 
   </main>
 
   <footer>
-    <div class="container footer_container">
+    <div class="footer-container">
       <div class="footer_about">
         <div class="footer_info">
-          <span class="footer_name company_name">JD</span>
+          <h2 class="company_name">JD</h2>
           <p class="footer_description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur autem
             similique laboriosam dignissi mos similique laboriosam dignissi mos</p>
         </div>
@@ -148,7 +227,6 @@
         </ul>
       </div>
     </div>
-
   </footer>
 
 </body>
